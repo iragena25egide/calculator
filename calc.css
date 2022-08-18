@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(rgb(212, 208, 208),rgb(55,55,55)) ;
+}
+.calc{
+    border: 1px solid green;
+    height: 500px;
+    width: 38%;
+    margin: 30px 20px 20px 400px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: larger;
+    background: #fff;
+}
+.close{
+    width: 40px;
+    height: 40px;
+    background: rgb(221, 72, 72);
+    border-radius: 50px;
+}
+.close:hover{
+    background: red;
+}
+#display{
+    margin: 30px 20px 20px 30px;
+    outline: none;
+    height: 40px;
+    border-radius: 2px;
+    width: 60%;
+    background: none;
+    cursor: s-resize;
+}
+input{
+    
+    margin-left: 30px;
+    cursor: pointer;
+    
+    font-size: larger;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+input:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(226, 123, 123),rgb(253, 5, 5));
+    
+}
